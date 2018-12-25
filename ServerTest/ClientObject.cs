@@ -51,8 +51,7 @@ namespace ServerTest
                         data = Encoding.Unicode.GetBytes(message);
                         stream.Write(data, 0, data.Length);
                     }
-                    // Console.ReadKey();
-                    // отправляем обратно сообщение в верхнем регистре
+
                    
                 }
             }
